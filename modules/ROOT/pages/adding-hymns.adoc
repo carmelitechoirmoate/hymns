@@ -1,8 +1,8 @@
 = Adding a Hymn
 :!page-pagination:
 
-Everything on this site is a plain text file in the GitHub repository https://github.com/quis-ut-deus/carmelite-choir[quis-ut-deus/carmelite-choir^].
-You can do all of this in a web browser on github.com, signed in as *quis-ut-deus*.
+Everything on this site is a plain text file in the GitHub repository https://github.com/quisutdeusamen/carmelite-hymns[quisutdeusamen/carmelite-hymns^].
+You can do all of this in a web browser on github.com, signed in as *quisutdeusamen*.
 The site rebuilds by itself a minute or two after each change.
 
 == Fix a typo

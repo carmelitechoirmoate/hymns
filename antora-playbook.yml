@@ -1,12 +1,12 @@
 site:
   title: Carmelite Choir Hymns
   start_page: ROOT::index.adoc
-  url: https://quis-ut-deus.github.io/carmelite-choir
+  url: https://quisutdeusamen.github.io/carmelite-hymns
 content:
   sources:
   - url: .
     branches: HEAD
-    edit_url: 'https://github.com/quis-ut-deus/carmelite-choir/edit/main/{path}'
+    edit_url: 'https://github.com/quisutdeusamen/carmelite-hymns/edit/main/{path}'
 ui:
   bundle:
     url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable

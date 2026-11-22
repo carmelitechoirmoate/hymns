@@ -3,7 +3,7 @@
 The Carmelite choir's hymn book: full lyrics, sheet music where we have it,
 and a record of what we sang each Sunday. Built with [Antora](https://antora.org)
 from AsciiDoc files and published to GitHub Pages at
-https://quis-ut-deus.github.io/carmelite-choir/.
+https://quisutdeusamen.github.io/carmelite-hymns/.
 
 **To add or change a hymn, read the "Adding a hymn" page on the site**
 (`modules/ROOT/pages/adding-hymns.adoc`). Everything can be done in the browser
@@ -32,6 +32,6 @@ npm run preview        # http://localhost:4000/
 
 ## One-off GitHub setup
 
-1. Create the repository `carmelite-choir` under the `quis-ut-deus` account and push this folder to `main`.
+1. The repository is `quisutdeusamen/carmelite-hymns`; push this folder to `main`.
 2. In the repository, go to **Settings > Pages** and set **Source** to **GitHub Actions**.
 3. The first push builds and publishes the site.
