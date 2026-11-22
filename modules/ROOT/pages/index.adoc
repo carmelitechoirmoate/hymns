@@ -8,6 +8,9 @@ image::carmelite-arms-motto.svg[Carmelite coat of arms with the motto Zelo zelat
 [.tagline]
 The lyrics of every hymn the Carmelite choir sings, with sheet music where we have it.
 
+[.add-hymn-note]
+*Missing a hymn?* Send the words (and a photo of the music, if you have one) to mailto:carmelitechoirmoate@gmail.com[carmelitechoirmoate@gmail.com] and the hymn will be added.
+
 [.home-links]
 * xref:hymns/index.adoc[*Hymns A to Z* +
 {hymn-count} hymns, with filters for season and Mass part]

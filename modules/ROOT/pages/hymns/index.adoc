@@ -2,5 +2,6 @@
 :!page-pagination:
 
 Type a few words of the title or lyrics, or pick a season or a part of the Mass.
+Can't find a hymn? Email the words to mailto:carmelitechoirmoate@gmail.com[carmelitechoirmoate@gmail.com] and it will be added.
 
 // HYMN-INDEX
