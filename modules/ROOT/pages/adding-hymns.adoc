@@ -33,7 +33,7 @@ The hymn appears in *Hymns A to Z*, in the menu and in search automatically.
 :audio:
 :hardbreaks-option:
 
-*1.* I danced in the morning
+I danced in the morning
 when the world was begun,
 ...
 
@@ -59,7 +59,7 @@ What each line means:
 |===
 
 For the lyrics, type each line on its own line and leave a blank line between verses.
-Start a numbered verse with `\*1.*`, `\*2.*` and so on (with the stars, so the number shows in bold).
+Don't number the verses: the blank line is enough, and it keeps the projector and printed sheets clean.
 Put labels such as `\_Refrain_` or `\_Ladies_` between underscores to show them in italics.
 
 == Add sheet music

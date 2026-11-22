@@ -9,7 +9,7 @@
 :audio:
 :hardbreaks-option:
 
-*1.* First line of verse one
+First line of verse one
 second line
 third line
 
@@ -17,5 +17,5 @@ _Refrain_
 Words of the refrain
 on as many lines as you like
 
-*2.* First line of verse two
+First line of verse two
 second line

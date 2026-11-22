@@ -9,7 +9,7 @@
 :audio:
 :hardbreaks-option:
 
-*1.* O little town of Bethlehem,
+O little town of Bethlehem,
 how still we see thee lie!
 Above thy deep and dreamless sleep
 the silent stars go by.
@@ -18,7 +18,7 @@ the everlasting light;
 the hopes and fears of all the years
 are met in thee tonight.
 
-*2.* For Christ is born of Mary;
+For Christ is born of Mary;
 and, gathered all above,
 while mortals sleep, the angels keep
 their watch of wond'ring love.
@@ -27,7 +27,7 @@ proclaim the holy birth,
 and praises sing to God the King,
 and peace to men on earth.
 
-*3.* How silently, how silently,
+How silently, how silently,
 the wondrous gift is giv'n!
 So God imparts to human hearts
 the blessings of His heav'n.
@@ -36,7 +36,7 @@ but in this world of sin,
 where meek souls will receive Him still,
 the dear Christ enters in.
 
-*4.* O holy Child of Bethlehem,
+O holy Child of Bethlehem,
 descend to us, we pray;
 cast out our sin and enter in;
 be born in us today.

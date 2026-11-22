@@ -9,7 +9,7 @@
 :audio: 
 :hardbreaks-option:
 
-*1.* Hark, the herald-angels sing
+Hark, the herald-angels sing
 glory to the new-born King;
 peace on earth and mercy mild,
 God and sinners reconciled:
@@ -22,7 +22,7 @@ with th'angelic host proclaim,
 Hark, the herald-angels sing
 glory to the new-born King.
 
-*2.* Christ, by highest heav'n adored,
+Christ, by highest heav'n adored,
 Christ, the everlasting Lord,
 late in time behold him come,
 offspring of a virgin's womb!
@@ -31,7 +31,7 @@ hail, th'incarnate Deity!
 Pleased as man with us to dwell,
 Jesus, our Emmanuel.
 
-*3.* Hall, the heav'n-born Prince of Peace
+Hall, the heav'n-born Prince of Peace
 Hail, the Son of Righteousness!
 Light and life to all he brings,
 ris'n with healing in his wings;
