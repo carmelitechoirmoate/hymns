@@ -209,3 +209,17 @@ footer.footer { font-size: 0.72rem; line-height: 1.5; padding: 1rem 1rem 1.5rem;
   body:has(.doc .lyrics) .doc .lyrics .paragraph { break-inside: avoid; margin: 0; }
   body:has(.doc .lyrics) .doc .lyrics em { color: #333; }
 }
+
+/* ---------- Favourites ---------- */
+.doc .hymn-tools .fav-button { border: 1px solid var(--gold); border-radius: 10px; color: #8a6d10; }
+.doc .hymn-tools .fav-button[aria-pressed=true] { background: var(--gold); color: var(--brown-deep); border-color: var(--gold); }
+.doc .fav-filter { display: flex; align-items: center; gap: 0.5rem; margin-top: 0.5rem; font-size: 0.95rem; min-height: 44px; color: var(--brown); font-weight: 600; cursor: pointer; }
+.doc .fav-filter input { width: 22px; height: 22px; min-height: 0; accent-color: var(--brown); }
+.doc ul.hymn-list li.is-fav .hymn-title::after { content: " \2605"; color: var(--gold); }
+.doc .fav-empty { color: var(--muted); font-style: italic; }
+.doc #my-favourites { margin-top: 1rem; }
+.doc #my-favourites h2 { font-size: 1.4rem; border: 0; margin: 0 0 0.25rem; padding: 0; }
+.doc #my-favourites ul { list-style: none; padding: 0; margin: 0; display: grid; gap: 0.35rem; }
+.doc #my-favourites a { display: block; padding: 0.55rem 0.8rem; background: #fff; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; font-weight: 600; }
+@media print { .doc .hymn-tools .fav-button, .doc #my-favourites { display: none !important; } }
+.doc .hymn-tools { justify-content: flex-start; }

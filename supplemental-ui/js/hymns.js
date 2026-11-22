@@ -6,6 +6,16 @@
     set: function (k, v) { try { window.localStorage.setItem(k, v) } catch (e) {} },
   }
 
+  // Favourites: { slug: title }, stored on this device only
+  var favs = {
+    all: function () { try { return JSON.parse(store.get('hymn-favourites') || '{}') || {} } catch (e) { return {} } },
+    toggle: function (slug, title) {
+      var f = favs.all()
+      if (f[slug]) delete f[slug]; else f[slug] = title
+      store.set('hymn-favourites', JSON.stringify(f))
+    },
+  }
+
   function ready (fn) {
     if (document.readyState !== 'loading') fn()
     else document.addEventListener('DOMContentLoaded', fn)
@@ -105,6 +115,23 @@
         '<button type="button" class="print-hymn-button" aria-label="Print the words in large text">Print</button>'
       tools.querySelector('.project-button').addEventListener('click', openProjector)
       tools.querySelector('.print-hymn-button').addEventListener('click', function () { window.print() })
+      // Favourite star (kept on this phone only)
+      var slug = (location.pathname.match(/([^/]+)\.html$/) || [])[1]
+      var h1title = (document.querySelector('.doc h1.page') || {}).textContent || ''
+      if (slug) {
+        var star = document.createElement('button')
+        star.type = 'button'
+        star.className = 'fav-button'
+        var paint = function () {
+          var on = !!favs.all()[slug]
+          star.textContent = on ? '★ Saved' : '☆ Save'
+          star.setAttribute('aria-pressed', String(on))
+          star.setAttribute('aria-label', on ? 'Remove from my favourites' : 'Add to my favourites')
+        }
+        star.addEventListener('click', function () { favs.toggle(slug, h1title.trim()); paint() })
+        paint()
+        tools.appendChild(star)
+      }
       // Printed copies: the hymn's name at the top left of every page
       // (the page numbers at the bottom come from the print styles).
       var titleEl = document.querySelector('.doc h1.page')
@@ -164,9 +191,37 @@
     })
     if (buttons.length && store.get('hymn-view') === 'sheet') show('sheet')
 
+    // Home page: this phone's favourites
+    var favBox = document.getElementById('my-favourites')
+    if (favBox) {
+      var f = favs.all()
+      var slugs = Object.keys(f).sort(function (a, b) { return f[a].localeCompare(f[b]) })
+      if (slugs.length) {
+        var ul = document.createElement('ul')
+        slugs.forEach(function (s) {
+          var li = document.createElement('li')
+          var a = document.createElement('a')
+          a.href = 'hymns/' + s + '.html'
+          a.textContent = f[s]
+          li.appendChild(a)
+          ul.appendChild(li)
+        })
+        var h = document.createElement('h2')
+        h.textContent = '★ My favourites'
+        favBox.appendChild(h)
+        favBox.appendChild(ul)
+        favBox.hidden = false
+      }
+    }
+
     // Hymn index filters
     var list = document.querySelector('.hymn-list')
     if (!list) return
+    var favOnly = document.getElementById('hymn-filter-fav')
+    var myFavs = favs.all()
+    Array.prototype.forEach.call(list.children, function (li) {
+      if (myFavs[li.dataset.slug]) li.classList.add('is-fav')
+    })
     var text = document.getElementById('hymn-filter-text')
     var season = document.getElementById('hymn-filter-season')
     var part = document.getElementById('hymn-filter-part')
@@ -180,11 +235,29 @@
       items.forEach(function (li) {
         var ok = words.every(function (w) { return li.dataset.text.indexOf(w) !== -1 }) &&
           (!s || li.dataset.season.split('|').indexOf(s) !== -1) &&
-          (!p || li.dataset.part.split('|').indexOf(p) !== -1)
+          (!p || li.dataset.part.split('|').indexOf(p) !== -1) &&
+          (!favOnly || !favOnly.checked || li.classList.contains('is-fav'))
         li.hidden = !ok
         if (ok) shown++
       })
       count.textContent = shown
+      var empty = document.getElementById('fav-empty')
+      if (favOnly && favOnly.checked && !shown) {
+        if (!empty) {
+          empty = document.createElement('p')
+          empty.id = 'fav-empty'
+          empty.className = 'fav-empty'
+          empty.textContent = 'No favourites yet. Open a hymn and tap ☆ Save to add it here.'
+          list.parentNode.insertBefore(empty, list)
+        }
+        empty.hidden = false
+      } else if (empty) empty.hidden = true
+      store.set('hymn-fav-only', favOnly && favOnly.checked ? '1' : '')
+    }
+    if (favOnly) {
+      favOnly.checked = store.get('hymn-fav-only') === '1'
+      favOnly.addEventListener('change', filter)
+      if (favOnly.checked) filter()
     }
     text.addEventListener('input', filter)
     season.addEventListener('change', filter)
