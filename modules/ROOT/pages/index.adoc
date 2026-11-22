@@ -6,7 +6,7 @@
 image::carmelite-arms.svg[Carmelite coat of arms,200]
 
 [.tagline]
-The words, and where we have it the sheet music, for every hymn the Carmelite choir sings.
+The lyrics of every hymn the Carmelite choir sings, with sheet music where we have it.
 
 [.home-links]
 * xref:hymns/index.adoc[*Hymns A to Z* +
