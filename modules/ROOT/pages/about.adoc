@@ -48,3 +48,7 @@ The arms on this site are a simple drawing for the screen. The arms used by the 
 
 * xref:hymns/flower-of-carmel.adoc[] and xref:hymns/flos-carmeli.adoc[], the Order's own hymn to Mary, traditionally linked to St Simon Stock
 * xref:hymns/hail-queen-of-heaven.adoc[], xref:hymns/hail-holy-queen-enthroned-above.adoc[] and other xref:hymns/index.adoc[Marian hymns]
+
+== Feedback
+
+If you want to send feedback, please email mailto:carmelitechoirmoate@gmail.com[carmelitechoirmoate@gmail.com].

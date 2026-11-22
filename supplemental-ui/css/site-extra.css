@@ -180,3 +180,5 @@ html.is-projecting { overflow: hidden; }
 /* The default UI makes the content a scroll box on small screens, which stops
    the pinned bars from sticking. Clip instead of scrolling. */
 @media screen and (max-width: 1023.5px) { main > .content { overflow-x: clip; } }
+.footer .footer-feedback { font-size: 0.9rem; overflow-wrap: anywhere; }
+.footer .footer-feedback a { color: var(--brown); font-weight: 600; }
