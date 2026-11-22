@@ -1,0 +1,39 @@
+= Salve Regina
+:composer: Gregorian chant (simple tone); words attributed to Hermann of Reichenau
+:hymnal-page:
+:key:
+:season: Marian, Ordinary Time
+:mass-part: Recessional, Marian procession
+:sheet-music:
+:youtube:
+:audio:
+:hardbreaks-option:
+
+Salve, Regina, Mater misericordiae,
+vita, dulcedo, et spes nostra, salve.
+
+Ad te clamamus, exsules filii Hevae.
+Ad te suspiramus, gementes et flentes
+in hac lacrimarum valle.
+
+Eia ergo, advocata nostra,
+illos tuos misericordes oculos
+ad nos converte.
+
+Et Iesum, benedictum fructum ventris tui,
+nobis post hoc exsilium ostende.
+
+O clemens, O pia,
+O dulcis Virgo Maria.
+
+_In English_
+_Hail, holy Queen, Mother of mercy,_
+_our life, our sweetness and our hope._
+_To thee do we cry, poor banished children of Eve;_
+_to thee do we send up our sighs,_
+_mourning and weeping in this valley of tears._
+_Turn then, most gracious advocate,_
+_thine eyes of mercy toward us,_
+_and after this our exile_
+_show unto us the blessed fruit of thy womb, Jesus._
+_O clement, O loving, O sweet Virgin Mary._
