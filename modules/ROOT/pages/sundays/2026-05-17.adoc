@@ -1,0 +1,10 @@
+= Sunday 17 May 2026
+:date: 2026-05-17
+:occasion: The Ascension of the Lord
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/we-are-called.adoc[]
+* xref:hymns/sweet-sacrament-divine.adoc[]
+* xref:hymns/freely-freely.adoc[]
+* xref:hymns/o-mary-we-crown-thee.adoc[]

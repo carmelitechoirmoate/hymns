@@ -1,0 +1,7 @@
+= Sunday 9 November 2025
+:date: 2025-11-09
+:occasion: Dedication of the Lateran Basilica
+
+* xref:hymns/all-are-welcome.adoc[]
+* xref:hymns/the-supper-of-the-lord.adoc[]
+* xref:hymns/flower-of-carmel.adoc[]

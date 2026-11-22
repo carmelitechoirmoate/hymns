@@ -1,0 +1,7 @@
+= Sunday 12 April 2026
+:date: 2026-04-12
+:occasion: Divine Mercy Sunday
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/one-love-released.adoc[]

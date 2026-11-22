@@ -1,0 +1,24 @@
+= Tantum Ergo
+:composer: Words: St Thomas Aquinas
+:hymnal-page: 
+:key: 
+:season: Any time
+:mass-part: Benediction
+:sheet-music: 
+:youtube: 
+:audio: 
+:hardbreaks-option:
+
+Tantum ergo Sacramentum
+Veneremur cernui:
+Et antiquum documentum
+Novo cedat ritui:
+Præstet fides supplementum
+Sensuum defectui.
+Genitori, Genitoque
+Laus et iubilatio,
+Salus, honor, virtus quoque
+Sit et benedictio:
+Procedenti ab utroque
+Compar sit laudatio.
+Amen.

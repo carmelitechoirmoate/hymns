@@ -1,0 +1,9 @@
+= Sunday 25 October 2026
+:date: 2026-10-25
+:occasion: 30th Sunday in Ordinary Time
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/lord-of-all-hopefulness.adoc[]
+* xref:hymns/love-goes-on.adoc[]
+* xref:hymns/dominican-magnificat.adoc[]

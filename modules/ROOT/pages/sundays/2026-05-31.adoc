@@ -1,0 +1,9 @@
+= Sunday 31 May 2026
+:date: 2026-05-31
+:occasion: The Most Holy Trinity
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/holy-god-we-praise-thy-name.adoc[]
+* xref:hymns/jesus-we-adore-you.adoc[]
+* xref:hymns/holy-holy-holy.adoc[]

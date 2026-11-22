@@ -1,0 +1,30 @@
+<header class="header">
+  <nav class="navbar">
+    <div class="navbar-brand">
+      <a class="navbar-item brand-link" href="{{{or site.url siteRootPath}}}">
+        <img class="brand-logo" src="{{{uiRootPath}}}/img/carmelite-arms.svg" alt="">
+        <span>{{site.title}}</span>
+      </a>
+      {{#if env.SITE_SEARCH_PROVIDER}}
+      <div class="navbar-item search hide-for-print">
+        <div id="search-field" class="field">
+          <input id="search-input" type="text" placeholder="Search hymns and lyrics" aria-label="Search hymns and lyrics">
+        </div>
+      </div>
+      {{/if}}
+      <button class="navbar-burger" aria-controls="topbar-nav" aria-expanded="false" aria-label="Toggle main menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div id="topbar-nav" class="navbar-menu">
+      <div class="navbar-end">
+        <a class="navbar-item" href="{{{relativize '/index.html'}}}">Home</a>
+        <a class="navbar-item" href="{{{relativize '/hymns/index.html'}}}">Hymns A to Z</a>
+        <a class="navbar-item" href="{{{relativize '/sundays/index.html'}}}">What we sang</a>
+        <a class="navbar-item" href="{{{relativize '/about.html'}}}">About</a>
+      </div>
+    </div>
+  </nav>
+</header>

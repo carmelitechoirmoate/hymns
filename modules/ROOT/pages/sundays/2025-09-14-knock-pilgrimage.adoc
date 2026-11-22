@@ -1,0 +1,27 @@
+= Knock Pilgrimage 2025
+:date: 2025-09-14
+:occasion: Carmelite pilgrimage Mass at Knock
+
+The date is the Sunday the running order was finalised; please check it. A recording of the Mass setting: https://www.youtube.com/watch?v=PiEvRBEfWBU[Mass on YouTube^]
+
+* Processional: xref:hymns/alleluia-sing-to-jesus.adoc[]
+* Anointing of the sick: xref:hymns/lay-your-hands.adoc[]
+* Anointing of the sick: xref:hymns/send-us-your-spirit.adoc[]
+* Anointing of the sick: xref:hymns/o-breathe-on-me.adoc[]
+* Entrance: xref:hymns/in-this-place.adoc[]
+* Gloria: Sexton Mass setting
+* Responsorial Psalm: "Never forget the deeds of the Lord"
+* Gospel Acclamation: Sexton Mass setting
+* Offertory: Instrumental (Val)
+* Sanctus, Memorial Acclamation, Great Amen, Lamb of God: Sexton Mass setting
+* Communion: xref:hymns/one-love-released.adoc[]
+* Communion: xref:hymns/the-supper-of-the-lord.adoc[]
+* Eucharistic blessing: xref:hymns/o-sacrament-most-holy.adoc[]
+* Eucharistic blessing: xref:hymns/tantum-ergo.adoc[]
+* Eucharistic blessing: xref:hymns/panem-de-caelo.adoc[]
+* Rosary procession: xref:hymns/flower-of-carmel.adoc[]
+* Rosary procession: xref:hymns/as-i-kneel-before-you.adoc[]
+* Rosary procession: xref:hymns/ill-sing-a-hymn-to-mary.adoc[]
+* Rosary procession: xref:hymns/flos-carmeli.adoc[]
+* Rosary procession: xref:hymns/hail-holy-queen-enthroned-above.adoc[]
+* Concluding ceremonies: xref:hymns/lady-of-knock.adoc[]

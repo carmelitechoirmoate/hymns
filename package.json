@@ -1,0 +1,14 @@
+{
+  "name": "carmelite-choir",
+  "private": true,
+  "description": "Carmelite choir hymn book (Antora / AsciiDoc)",
+  "scripts": {
+    "build": "antora antora-playbook.yml",
+    "preview": "python3 -m http.server 4000 --directory build/site"
+  },
+  "devDependencies": {
+    "@antora/cli": "^3.2.0",
+    "@antora/lunr-extension": "^1.0.0-alpha.8",
+    "@antora/site-generator": "^3.2.0"
+  }
+}

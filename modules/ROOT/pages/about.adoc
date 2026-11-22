@@ -1,0 +1,50 @@
+= About the Carmelites
+:!page-pagination:
+
+[.hero-logo]
+image::carmelite-arms.svg[Carmelite coat of arms,180]
+
+The Order of the Brothers of the Blessed Virgin Mary of Mount Carmel began around the year 1200, when a group of hermits settled on Mount Carmel in the Holy Land.
+They lived near the spring traditionally linked to the prophet Elijah and built a small chapel in honour of Our Lady.
+That is why Carmelites look to two figures above all: Mary, the Flower of Carmel, and Elijah, the prophet of fire who stood on Mount Carmel for the one true God (1 Kings 18).
+
+== The motto
+
+[.latin-callout]
+====
+[.latin]#Zelo zelatus sum pro Domino Deo exercituum#
+
+"With zeal I have been zealous for the Lord God of Hosts."
+_1 Kings 19:10 and 19:14_
+====
+
+These are Elijah's own words.
+After his victory on Mount Carmel he fled for his life into the desert and came to Mount Horeb.
+When God asked him, "What are you doing here, Elijah?", this was his answer: everything he had done was out of burning love for God.
+God then came to him not in the wind, the earthquake or the fire, but in "a still small voice", the gentle whisper that Carmelites have always sought in silent prayer.
+
+Word by word:
+
+[cols="1,2",frame=none,grid=rows]
+|===
+|*Zelo* |with zeal, with burning love
+|*zelatus sum* |I have been zealous (the doubling, "with zeal I have been zealous", is a Hebrew way of saying "with all my heart")
+|*pro Domino Deo* |for the Lord God
+|*exercituum* |of hosts, the God of the armies of heaven
+|===
+
+The Carmelites took it as their motto because it sums up their calling: to live, like Elijah, wholly for God.
+
+== The coat of arms
+
+* *The brown mountain* is Mount Carmel, where the Order began. Brown is also the colour of the Carmelite habit and of the scapular.
+* *The cross on the summit* appears in the arms of the Discalced Carmelites, the reform of St Teresa of Ávila and St John of the Cross. It shows that the climb of the mountain leads to Christ.
+* *The three stars* are usually explained in one of two ways: as Mary, Elijah and Elisha, or as the three stages of the Order's history (the prophets, the hermits on Carmel, and the Order spread through the world). The star on the mountain is often taken to be Our Lady, Star of the Sea, the _Stella Maris_ of the xref:hymns/flos-carmeli.adoc[Flos Carmeli].
+* *The crown* is the crown of Mary, Queen of Carmel. In fuller versions it carries twelve stars, and above it an arm holds a flaming sword, Elijah's zeal, with the motto on a ribbon.
+
+The arms on this site are a simple drawing for the screen. The arms used by the Order are more detailed.
+
+== Carmelite hymns on this site
+
+* xref:hymns/flower-of-carmel.adoc[] and xref:hymns/flos-carmeli.adoc[], the Order's own hymn to Mary, traditionally linked to St Simon Stock
+* xref:hymns/hail-queen-of-heaven.adoc[], xref:hymns/hail-holy-queen-enthroned-above.adoc[] and other xref:hymns/index.adoc[Marian hymns]

@@ -1,0 +1,6 @@
+= Hymns A to Z
+:!page-pagination:
+
+Type a few words of the title or lyrics, or pick a season or a part of the Mass.
+
+// HYMN-INDEX

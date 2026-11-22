@@ -1,0 +1,8 @@
+= Sunday 16 November 2025
+:date: 2025-11-16
+:occasion: 33rd Sunday in Ordinary Time
+
+* xref:hymns/seek-ye-first.adoc[]
+* xref:hymns/be-not-afraid.adoc[]
+* xref:hymns/now-let-us-from-this-table-rise.adoc[]
+* Mass setting: Bodley Mass

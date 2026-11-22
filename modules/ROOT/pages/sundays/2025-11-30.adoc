@@ -1,0 +1,7 @@
+= Sunday 30 November 2025
+:date: 2025-11-30
+:occasion: 1st Sunday of Advent
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/christ-be-our-light.adoc[]

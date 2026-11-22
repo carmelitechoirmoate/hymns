@@ -1,0 +1,8 @@
+= Sunday 23 November 2025
+:date: 2025-11-23
+:occasion: Christ the King
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/our-god-reigns.adoc[]
+* xref:hymns/hail-redeemer.adoc[]

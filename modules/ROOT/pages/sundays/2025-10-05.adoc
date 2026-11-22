@@ -1,0 +1,8 @@
+= Sunday 5 October 2025
+:date: 2025-10-05
+:occasion: 27th Sunday in Ordinary Time
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/o-god-you-search-me.adoc[]
+* xref:hymns/now-let-us-from-this-table-rise.adoc[]

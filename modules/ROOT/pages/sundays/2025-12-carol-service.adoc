@@ -1,0 +1,31 @@
+= Carol Service 2025
+:date: 2025-12
+:occasion: Christmas carol service
+
+From the running order in "Carols25.docx". The exact date is not in the document. Secular songs are listed by name only.
+
+* xref:hymns/o-come-o-come-emmanuel.adoc[]
+* It's the Most Wonderful Time of the Year
+* White Christmas
+* Winter Wonderland
+* Have Yourself a Merry Little Christmas
+* A Winter's Tale (soloist)
+* When a Child Is Born (soloist)
+* xref:hymns/angels-from-the-realms-of-glory.adoc[]
+* xref:hymns/everywhere-christmas-tonight.adoc[]
+* xref:hymns/joyful-joyful-we-adore-you.adoc[]
+* xref:hymns/what-child-is-this.adoc[]
+* The Little Drummer Boy
+* xref:hymns/joy-to-the-world.adoc[]
+* Do You Hear What I Hear
+* xref:hymns/let-there-be-peace-on-earth.adoc[]
+* xref:hymns/the-first-noel.adoc[]
+* _Opening prayer_
+* O Little Town of Bethlehem
+* xref:hymns/away-in-a-manger.adoc[]
+* _Gospel: Luke 2:8-16_
+* xref:hymns/silent-night.adoc[]
+* xref:hymns/o-come-all-ye-faithful.adoc[]
+* _Prayers of the faithful and blessing_
+* xref:hymns/o-holy-night.adoc[]
+* xref:hymns/the-holy-city.adoc[]

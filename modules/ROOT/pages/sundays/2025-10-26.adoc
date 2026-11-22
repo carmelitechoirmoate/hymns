@@ -1,0 +1,10 @@
+= Sunday 26 October 2025
+:date: 2025-10-26
+:occasion: 30th Sunday in Ordinary Time
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/all-people-that-on-earth-do-dwell.adoc[]
+* xref:hymns/joyful-joyful-we-adore-you.adoc[]
+* xref:hymns/blest-are-they.adoc[]
+* xref:hymns/a-mhuire-mhathair.adoc[]

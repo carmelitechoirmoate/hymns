@@ -1,0 +1,11 @@
+= Sunday 26 April 2026
+:date: 2026-04-26
+:occasion: 4th Sunday of Easter
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/all-creatures-of-our-god-and-king.adoc[]
+* xref:hymns/bless-the-lord-o-my-soul.adoc[]
+* xref:hymns/bread-of-life.adoc[]
+* xref:hymns/bread-for-the-world.adoc[]
+* xref:hymns/the-supper-of-the-lord.adoc[]

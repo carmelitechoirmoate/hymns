@@ -1,0 +1,12 @@
+= Christmas Midnight Mass 2025
+:date: 2025-12-24
+:occasion: Christmas Eve
+
+* Opening: xref:hymns/once-in-royal-davids-city.adoc[]
+* Gloria: xref:hymns/glory-to-god-schutte.adoc[]
+* Psalm: xref:hymns/silent-night.adoc[]
+* Gospel Acclamation: xref:hymns/jubilate-deo.adoc[]
+* Offertory: xref:hymns/away-in-a-manger.adoc[]
+* Communion: xref:hymns/o-holy-night.adoc[]
+* Closing: xref:hymns/o-come-all-ye-faithful.adoc[]
+* Mass setting: Feeley

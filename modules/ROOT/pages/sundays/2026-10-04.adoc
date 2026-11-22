@@ -1,0 +1,9 @@
+= Sunday 4 October 2026
+:date: 2026-10-04
+:occasion: 27th Sunday in Ordinary Time
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/alleluia-sing-to-jesus.adoc[]
+* xref:hymns/make-me-a-channel-of-your-peace.adoc[]
+* xref:hymns/ill-sing-a-hymn-to-mary.adoc[]

@@ -1,0 +1,13 @@
+= Flos Carmeli
+:composer: Attributed to St Simon Stock (13th century)
+:hymnal-page: 
+:key: 
+:season: Marian, Carmelite feasts
+:mass-part: Marian procession, Recessional
+:sheet-music: flos-carmeli.jpg
+:youtube: 
+:audio: 
+:hardbreaks-option:
+
+Flos Carme-li, vitis flori-ge-ra, splendor coeli, Virgo poo-er-pera singu-la-ris.
+*2.* Mater mi-tis sed vi-ri nesci-a Car-me-li-tis e-sto propiti- a Stella maris.

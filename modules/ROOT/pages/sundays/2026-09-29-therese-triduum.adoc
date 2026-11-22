@@ -1,0 +1,11 @@
+= Thérèse Triduum 2026
+:date: 2026-09-29
+:occasion: Triduum for St Thérèse
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/seek-ye-first.adoc[]
+* xref:hymns/blessed-be-god.adoc[]
+* xref:hymns/these-alone-are-enough.adoc[]
+* xref:hymns/now-let-us-from-this-table-rise.adoc[]
+* xref:hymns/praise-my-soul-the-king-of-heaven.adoc[]

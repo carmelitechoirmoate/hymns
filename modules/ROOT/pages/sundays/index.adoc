@@ -1,0 +1,5 @@
+= What We Sang
+:!page-pagination:
+
+Each Sunday or feast the choir sang for, newest first. Tap a date to see the hymns.
+// SUNDAY-INDEX

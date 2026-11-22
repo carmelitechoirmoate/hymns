@@ -1,0 +1,21 @@
+= Title of the Hymn
+:composer: Words: name; Music: name
+:hymnal-page: 123
+:key: G
+:season: Any time
+:mass-part: Communion
+:sheet-music:
+:youtube:
+:audio:
+:hardbreaks-option:
+
+*1.* First line of verse one
+second line
+third line
+
+_Refrain_
+Words of the refrain
+on as many lines as you like
+
+*2.* First line of verse two
+second line

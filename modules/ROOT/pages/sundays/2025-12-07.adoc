@@ -1,0 +1,8 @@
+= Sunday 7 December 2025
+:date: 2025-12-07
+:occasion: 2nd Sunday of Advent
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/as-gentle-as-silence.adoc[]
+* xref:hymns/as-i-kneel-before-you.adoc[]

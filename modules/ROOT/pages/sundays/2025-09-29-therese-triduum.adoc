@@ -1,0 +1,17 @@
+= Thérèse Triduum 2025
+:date: 2025-09-29
+:occasion: Triduum for St Thérèse, 29 September to 1 October
+
+Themes: 29 September, The Little Way; 30 September, Thérèse and the Family; 1 October, Model of Christian Hope.
+
+* Opening: xref:hymns/seek-ye-first.adoc[]
+* Opening: xref:hymns/christ-be-our-light.adoc[]
+* Opening: xref:hymns/praise-my-soul-the-king-of-heaven.adoc[]
+* Offertory: xref:hymns/blessed-be-god.adoc[]
+* Communion: xref:hymns/set-your-heart-on-the-higher-gifts.adoc[]
+* Communion: xref:hymns/make-me-a-channel-of-your-peace.adoc[]
+* Communion: xref:hymns/i-am-the-bread-of-life.adoc[]
+* Closing: xref:hymns/flower-of-carmel.adoc[]
+* Closing: xref:hymns/now-let-us-from-this-table-rise.adoc[]
+* Closing: xref:hymns/let-there-be-love-shared-among-us.adoc[]
+* Closing: xref:hymns/hail-queen-of-heaven.adoc[]

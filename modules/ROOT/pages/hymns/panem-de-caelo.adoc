@@ -1,0 +1,18 @@
+= Panem de Caelo
+:composer: Traditional (Benediction versicle)
+:hymnal-page: 
+:key: 
+:season: Any time
+:mass-part: Benediction
+:sheet-music: 
+:youtube: 
+:audio: 
+:hardbreaks-option:
+
+_Celebrant:_ Panem de caelo praestitisti eis.
+_(You have given them bread from heaven.)_
+
+_Choir:_ Omne delectamentum in se habentem.
+_(Having within it all sweetness.)_
+
+_Pronunciation:_ Om-neh de-lect-a-men-tum in seh ha-ben-tem

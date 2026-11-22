@@ -1,0 +1,23 @@
+= Carmelite Choir Hymns
+:page-role: home
+:!page-pagination:
+
+[.hero-logo]
+image::carmelite-arms.svg[Carmelite coat of arms,200]
+
+[.tagline]
+The words, and where we have it the sheet music, for every hymn the Carmelite choir sings.
+
+[.home-links]
+* xref:hymns/index.adoc[*Hymns A to Z* +
+{hymn-count} hymns, with filters for season and Mass part]
+* xref:sundays/index.adoc[*What we sang* +
+Every Sunday and feast, newest first]
+* xref:about.adoc[*About the Carmelites* +
+Our coat of arms and its Latin motto]
+
+TIP: Search any line of a hymn with the search box at the top of every page.
+
+== This week
+
+// LATEST-SUNDAY

@@ -1,0 +1,8 @@
+= Sunday 6 December 2026
+:date: 2026-12-06
+:occasion: 2nd Sunday of Advent
+
+* Entrance: xref:hymns/christ-be-our-light.adoc[]
+* Offertory: xref:hymns/as-gentle-as-silence.adoc[]
+* Communion: xref:hymns/holy-is-his-name.adoc[]
+* Recessional: xref:hymns/hail-queen-of-heaven.adoc[]

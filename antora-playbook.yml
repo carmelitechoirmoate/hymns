@@ -1,0 +1,28 @@
+site:
+  title: Carmelite Choir Hymns
+  start_page: ROOT::index.adoc
+  url: https://quis-ut-deus.github.io/carmelite-choir
+content:
+  sources:
+  - url: .
+    branches: HEAD
+    edit_url: 'https://github.com/quis-ut-deus/carmelite-choir/edit/main/{path}'
+ui:
+  bundle:
+    url: https://gitlab.com/antora/antora-ui-default/-/jobs/artifacts/HEAD/raw/build/ui-bundle.zip?job=bundle-stable
+    snapshot: true
+  supplemental_files: ./supplemental-ui
+antora:
+  extensions:
+  - ./lib/hymn-book.js
+  - require: '@antora/lunr-extension'
+    index_latest_only: true
+asciidoc:
+  attributes:
+    page-pagination: ~
+    experimental: ''
+    hide-uri-scheme: ''
+runtime:
+  cache_dir: ./.cache/antora
+output:
+  dir: ./build/site

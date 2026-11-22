@@ -1,0 +1,9 @@
+= Sunday 15 November 2026
+:date: 2026-11-15
+:occasion: 33rd Sunday in Ordinary Time
+
+NOTE: Worked out from the dates the hymn notes were last edited, so please check it.
+
+* xref:hymns/faithful-is-the-lord.adoc[]
+* xref:hymns/all-that-i-am.adoc[]
+* xref:hymns/christ-be-our-light.adoc[]
