@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 330" role="img" aria-labelledby="t2">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="20 0 300 285" role="img" aria-labelledby="t2">
 <title id="t2">Carmelite coat of arms with the motto Zelo zelatus sum pro Domino Deo exercituum</title>
 <g transform="translate(70,0)">
 <defs><clipPath id="s2"><path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z"/></clipPath></defs>
@@ -20,14 +20,15 @@
 <polygon points="138.0,85.0 133.7,92.5 125.0,92.5 129.3,100.0 125.0,107.5 133.7,107.5 138.0,115.0 142.3,107.5 151.0,107.5 146.7,100.0 151.0,92.5 142.3,92.5" fill="#5b3a1e"/>
 <path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z" fill="none" stroke="#3d2612" stroke-width="4"/>
 </g>
-<!-- motto ribbon -->
-<g stroke="#3d2612" stroke-width="2" stroke-linejoin="round">
-<path d="M8 262 L30 250 L30 290 L8 302 L18 282 Z" fill="#5b3a1e"/>
-<path d="M332 262 L310 250 L310 290 L332 302 L322 282 Z" fill="#5b3a1e"/>
-<path d="M30 250 Q170 298 310 250 L310 290 Q170 338 30 290 Z" fill="#fbf6ea"/>
+<!-- motto ribbon, wrapped round the base of the shield -->
+<g stroke="#3d2612" stroke-width="2" stroke-linejoin="round" fill="#5b3a1e">
+<path d="M64 122 L96 122 L94 104 L80 112 L58 96 Z"/>
+<path d="M276 122 L244 122 L246 104 L260 112 L282 96 Z"/>
 </g>
-<path id="motto" d="M34 275 Q170 323 306 275" fill="none"/>
-<text font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-weight="700" font-size="13" fill="#5b3a1e">
-<textPath href="#motto" startOffset="10" textLength="268" lengthAdjust="spacingAndGlyphs">ZELO ZELATUS SUM PRO DOMINO DEO EXERCITUUM</textPath>
+<path d="M80 118 C80 214, 128 258, 170 258 C212 258, 260 214, 260 118" fill="none" stroke="#3d2612" stroke-width="31"/>
+<path d="M80 118 C80 214, 128 258, 170 258 C212 258, 260 214, 260 118" fill="none" stroke="#fbf6ea" stroke-width="27"/>
+<path id="motto" d="M80 118 C80 214, 128 258, 170 258 C212 258, 260 214, 260 118" fill="none"/>
+<text font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-weight="700" font-size="13" fill="#5b3a1e" dy="4.5">
+<textPath href="#motto" startOffset="14" textLength="338" lengthAdjust="spacingAndGlyphs">ZELO ZELATUS SUM PRO DOMINO DEO EXERCITUUM</textPath>
 </text>
 </svg>
