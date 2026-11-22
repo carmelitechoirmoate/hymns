@@ -1,0 +1,8 @@
+= Sunday 22 November 2026
+:date: 2026-11-22
+:occasion: Christ the King
+
+* xref:hymns/hail-redeemer.adoc[]
+* xref:hymns/how-great-thou-art.adoc[]
+* xref:hymns/shine-jesus-shine.adoc[]
+* Mass setting: Lawton Mass
