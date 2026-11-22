@@ -3,7 +3,7 @@
    offline-pages.json, so the whole hymn book works with no signal.
    Pages are fetched fresh when online (so edits show up) and fall back to
    the saved copy when offline. Bump VERSION to force a full refresh. */
-const VERSION = 'v1'
+const VERSION = 'v2'
 const CACHE = 'hymns-' + VERSION
 const CORE = ['./', 'index.html', 'offline-pages.json', 'search-index.js', 'manifest.webmanifest',
   '_/css/site.css', '_/css/site-extra.css', '_/css/search.css', '_/js/site.js', '_/js/hymns.js',

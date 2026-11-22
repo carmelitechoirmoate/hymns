@@ -1,12 +1,13 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -2 200 246" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -6 200 250" role="img" aria-labelledby="t">
 <title id="t">Carmelite coat of arms</title>
 <defs><clipPath id="s"><path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z"/></clipPath></defs>
 <!-- crown -->
 <g fill="#c9a227" stroke="#3d2612" stroke-width="2" stroke-linejoin="round">
-<path d="M52 50 L46 16 L74 34 L100 8 L126 34 L154 16 L148 50 Z"/>
-<rect x="50" y="44" width="100" height="10" rx="3"/>
+<path d="M52 48 L44 18 L64 33 L77 11 L90 30 L100 4 L110 30 L123 11 L136 33 L156 18 L148 48 Z"/>
+<rect x="48" y="43" width="104" height="12" rx="3"/>
 </g>
-<g fill="#c9a227" stroke="#3d2612" stroke-width="2"><circle cx="46" cy="14" r="5.5"/><circle cx="100" cy="7" r="5.5"/><circle cx="154" cy="14" r="5.5"/></g>
+<g fill="#c9a227" stroke="#3d2612" stroke-width="2"><circle cx="44" cy="16" r="5"/><circle cx="77" cy="9" r="5"/><circle cx="100" cy="2" r="5.5"/><circle cx="123" cy="9" r="5"/><circle cx="156" cy="16" r="5"/></g>
+<g fill="#7a1f1f" stroke="#3d2612" stroke-width="1"><circle cx="72" cy="49" r="3"/><circle cx="128" cy="49" r="3"/></g><g fill="#fbf6ea" stroke="#3d2612" stroke-width="1"><rect x="96" y="45.5" width="8" height="7" rx="1.5"/></g>
 <!-- shield -->
 <path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z" fill="#fbf6ea"/>
 <g clip-path="url(#s)">
