@@ -1,6 +1,6 @@
 = Now Let Us From This Table Rise
 :composer: Words: Fred Kaan
-:hymnal-page: 456
+:hymnal-page:
 :key: 
 :season: Any time
 :mass-part: Recessional

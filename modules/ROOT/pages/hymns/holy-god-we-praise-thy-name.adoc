@@ -1,6 +1,6 @@
 = Holy God, We Praise Thy Name
 :composer: Words: Ignaz Franz, tr. Clarence Walworth
-:hymnal-page: 
+:hymnal-page: 223
 :key: 
 :season: Trinity, Any time
 :mass-part: Recessional

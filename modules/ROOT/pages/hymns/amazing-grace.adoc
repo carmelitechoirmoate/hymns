@@ -1,6 +1,6 @@
 = Amazing Grace
 :composer: Words: John Newton
-:hymnal-page: 
+:hymnal-page: 32
 :key: 
 :season: Any time
 :mass-part: Recessional, Reflection

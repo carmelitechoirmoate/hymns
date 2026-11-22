@@ -1,6 +1,6 @@
 = All Are Welcome
 :composer: Marty Haugen
-:hymnal-page: 
+:hymnal-page: 319
 :key: 
 :season: Any time
 :mass-part: Entrance

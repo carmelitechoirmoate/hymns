@@ -1,6 +1,6 @@
 = Let There Be Love Shared Among Us
 :composer: Dave Bilbrough
-:hymnal-page: 
+:hymnal-page: 317
 :key: 
 :season: Any time
 :mass-part: Offertory, Recessional

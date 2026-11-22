@@ -1,6 +1,6 @@
 = Once in Royal David's City
 :composer: Words: Cecil Frances Alexander; Music: Henry J. Gauntlett (IRBY)
-:hymnal-page: 
+:hymnal-page: 448
 :key: 
 :season: Christmas
 :mass-part: Entrance

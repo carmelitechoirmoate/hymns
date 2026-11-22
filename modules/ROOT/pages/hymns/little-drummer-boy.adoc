@@ -1,6 +1,6 @@
 = The Little Drummer Boy
 :composer: Katherine K. Davis
-:hymnal-page:
+:hymnal-page: 110
 :key:
 :season: Christmas
 :mass-part: Carol service

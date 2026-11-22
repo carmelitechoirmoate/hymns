@@ -1,6 +1,6 @@
 = Lord of All Hopefulness
 :composer: Words: Jan Struther; Music: SLANE (Irish traditional)
-:hymnal-page: 
+:hymnal-page: 342
 :key: 
 :season: Any time
 :mass-part: Entrance, Recessional

@@ -1,6 +1,6 @@
 = Our God Reigns
 :composer: Leonard E. Smith Jr.
-:hymnal-page: 
+:hymnal-page: 235
 :key: 
 :season: Christ the King, Easter
 :mass-part: Recessional

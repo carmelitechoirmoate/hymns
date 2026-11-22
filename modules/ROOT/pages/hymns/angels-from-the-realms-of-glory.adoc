@@ -1,6 +1,6 @@
 = Angels from the Realms of Glory
 :composer: Words: James Montgomery
-:hymnal-page: 
+:hymnal-page: 35
 :key: 
 :season: Christmas
 :mass-part: Entrance, Recessional

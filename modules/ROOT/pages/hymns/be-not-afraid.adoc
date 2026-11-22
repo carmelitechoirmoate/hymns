@@ -1,6 +1,6 @@
 = Be Not Afraid
 :composer: Bob Dufford SJ
-:hymnal-page: 
+:hymnal-page: 644
 :key: 
 :season: Ordinary Time, Any time
 :mass-part: Communion

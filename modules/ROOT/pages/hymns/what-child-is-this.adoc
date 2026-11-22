@@ -1,6 +1,6 @@
 = What Child Is This
 :composer: Words: William Chatterton Dix; Music: GREENSLEEVES (English traditional)
-:hymnal-page: 
+:hymnal-page: 619
 :key: 
 :season: Christmas
 :mass-part: Offertory, Communion

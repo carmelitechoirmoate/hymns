@@ -1,6 +1,6 @@
 = Father, We Adore You
 :composer: Terrye Coelho
-:hymnal-page: 
+:hymnal-page: 136
 :key: 
 :season: Trinity, Any time
 :mass-part: Communion

@@ -1,6 +1,6 @@
 = How Great Thou Art
 :composer: Words: Stuart K. Hine, from the Swedish of Carl Boberg; Music: Swedish folk melody
-:hymnal-page:
+:hymnal-page: 419
 :key:
 :season: Any time
 :mass-part: Recessional, Reflection

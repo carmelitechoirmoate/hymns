@@ -1,6 +1,6 @@
 = All Creatures of Our God and King
 :composer: Words: St Francis of Assisi, tr. William Draper; Music: LASST UNS ERFREUEN
-:hymnal-page: 
+:hymnal-page: 12
 :key: 
 :season: Easter, Any time
 :mass-part: Entrance, Recessional

@@ -1,6 +1,6 @@
 = O God, You Search Me
 :composer: Bernadette Farrell (Psalm 139)
-:hymnal-page: 
+:hymnal-page: 405
 :key: 
 :season: Ordinary Time, Any time
 :mass-part: Communion, Reflection

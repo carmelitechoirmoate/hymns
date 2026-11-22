@@ -1,6 +1,6 @@
 = Make Me a Channel of Your Peace
 :composer: Sebastian Temple (Prayer of St Francis)
-:hymnal-page: 350
+:hymnal-page: 359
 :key: 
 :season: Any time
 :mass-part: Offertory, Communion

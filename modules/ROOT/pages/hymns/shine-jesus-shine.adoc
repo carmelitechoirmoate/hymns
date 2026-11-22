@@ -1,6 +1,6 @@
 = Shine, Jesus, Shine
 :composer: Words and music: Graham Kendrick
-:hymnal-page: 80
+:hymnal-page: 344
 :key:
 :season: Any time, Epiphany
 :mass-part: Recessional, Entrance

@@ -1,6 +1,6 @@
 = I Am the Bread of Life
 :composer: Suzanne Toolan
-:hymnal-page: 
+:hymnal-page: 237
 :key: 
 :season: Any time
 :mass-part: Communion

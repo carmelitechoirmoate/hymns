@@ -1,6 +1,6 @@
 = O Little Town of Bethlehem
 :composer: Words: Phillips Brooks; Music: FOREST GREEN (English traditional) or ST LOUIS (Lewis Redner)
-:hymnal-page:
+:hymnal-page: 414
 :key:
 :season: Christmas
 :mass-part: Entrance, Offertory

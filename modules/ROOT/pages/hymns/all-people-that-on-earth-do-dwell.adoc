@@ -1,6 +1,6 @@
 = All People That on Earth Do Dwell
 :composer: Words: William Kethe; Music: Louis Bourgeois (OLD HUNDREDTH)
-:hymnal-page: 
+:hymnal-page: 20
 :key: 
 :season: Any time
 :mass-part: Entrance

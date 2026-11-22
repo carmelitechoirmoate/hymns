@@ -1,6 +1,6 @@
 = Blessed Be God
 :composer: 
-:hymnal-page: 
+:hymnal-page: 69
 :key: 
 :season: Any time
 :mass-part: Offertory

@@ -1,6 +1,6 @@
 = Salve Regina
 :composer: Gregorian chant, simple tone (Parish Book of Chant, CMAA, p. 212)
-:hymnal-page:
+:hymnal-page: 483
 :key:
 :season: Marian, Ordinary Time
 :mass-part: Communion, Recessional, Marian procession

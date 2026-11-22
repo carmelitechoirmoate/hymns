@@ -1,6 +1,6 @@
 = O Come, O Come, Emmanuel
 :composer: Words: Latin (Veni, veni Emmanuel), tr. John Mason Neale
-:hymnal-page: 
+:hymnal-page: 397
 :key: 
 :season: Advent
 :mass-part: Entrance

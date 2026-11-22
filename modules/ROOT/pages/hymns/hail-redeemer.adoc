@@ -1,6 +1,6 @@
 = Hail Redeemer, King Divine
 :composer: Words: Patrick Brennan CSsR
-:hymnal-page: 
+:hymnal-page: 205
 :key: 
 :season: Christ the King
 :mass-part: Recessional

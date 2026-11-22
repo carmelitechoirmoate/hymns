@@ -48,7 +48,7 @@ What each line means:
 |===
 |`=` line |The title, exactly as it should be shown.
 |`:composer:` |Who wrote the words and music. Leave blank if you don't know.
-|`:hymnal-page:` |The page or number in the hymn book.
+|`:hymnal-page:` |The hymn's number in the choir's hymn book, _Catholic Hymns Old & New_ (shown on the site as "Hymn book no."). Leave blank if it isn't in the book.
 |`:key:` |The key the choir sings it in.
 |`:season:` |One or more, separated by commas. Use the same names as other hymns so the filter groups them: _Advent, Christmas, Lent, Easter, Pentecost, Ordinary Time, Marian, Any time_.
 |`:mass-part:` |One or more, separated by commas: _Entrance, Gloria, Responsorial Psalm, Gospel Acclamation, Offertory, Communion, Reflection, Recessional, Benediction, Marian procession_.

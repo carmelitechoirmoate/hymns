@@ -1,6 +1,6 @@
 = As Gentle as Silence
 :composer: Estelle White
-:hymnal-page: 
+:hymnal-page: 433
 :key: 
 :season: Advent, Any time
 :mass-part: Communion, Reflection

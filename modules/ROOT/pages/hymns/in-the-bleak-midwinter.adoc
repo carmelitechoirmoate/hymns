@@ -1,6 +1,6 @@
 = In the Bleak Midwinter
 :composer: Words: Christina Rossetti; Music: Gustav Holst (CRANHAM)
-:hymnal-page:
+:hymnal-page: 262
 :key:
 :season: Christmas
 :mass-part: Carol service, Communion
