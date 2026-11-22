@@ -18,6 +18,12 @@ Our coat of arms and its Latin motto]
 
 TIP: Search any line of a hymn with the search box at the top of every page.
 
+== Using it at Mass
+
+* *No signal in the church?* Open the site once with a signal and every hymn is saved on your phone. To get an app icon, use *Add to Home Screen* (iPhone: the Share button in Safari; Android: the ⋮ menu in Chrome).
+* *Projecting the words:* on any hymn, tap *Project*. The words fill the screen one verse at a time; tap the right side or press the arrow keys for the next verse.
+* *Printed hymn sheet:* on any date in xref:sundays/index.adoc[What we sang], tap *Print hymn sheet* for one page with the words of every hymn.
+
 == This week
 
 // LATEST-SUNDAY

@@ -121,3 +121,55 @@ body.home .doc h1.page { text-align: center; font-size: 2.4rem; }
 .doc .hymn-meta dt { white-space: nowrap; }
 .doc p, .doc li { hyphens: none; -webkit-hyphens: none; }
 .doc .latin-callout .latin { line-height: 1.25; display: inline-block; }
+
+/* ---------- Project button and projector ---------- */
+.doc .hymn-tools { flex-wrap: wrap; }
+.doc .hymn-tools .project-button { border: 1px solid var(--brown); border-radius: 10px; }
+.projector { position: fixed; inset: 0; z-index: 1000; background: #120c07; color: #fbf6ea; display: flex; flex-direction: column;
+  padding: max(12px, env(safe-area-inset-top, 0px)) max(16px, env(safe-area-inset-right, 0px)) max(12px, env(safe-area-inset-bottom, 0px)) max(16px, env(safe-area-inset-left, 0px)); }
+html.is-projecting { overflow: hidden; }
+.projector-top { display: flex; align-items: center; gap: 1rem; font-family: "Cormorant Garamond", Georgia, serif; font-size: clamp(1rem, 3vmin, 1.6rem); color: var(--gold); }
+.projector-title { flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.projector-count { color: #b9a98f; font-family: "Inter", system-ui, sans-serif; font-size: 0.8em; font-variant-numeric: tabular-nums; }
+.projector button { font: inherit; background: transparent; color: #fbf6ea; border: 1px solid rgba(251,246,234,0.35); border-radius: 10px; min-width: 48px; min-height: 48px; cursor: pointer; }
+.projector .projector-close { font-size: 1.6rem; line-height: 1; }
+.projector-verse { flex: 1; min-height: 0; display: flex; align-items: center; justify-content: center; overflow: hidden; cursor: pointer; }
+.projector-text { font-family: "Inter", system-ui, sans-serif; font-weight: 500; line-height: 1.35; text-align: center; max-width: 100%; }
+.projector-text em { color: #e2c770; }
+.projector-text strong { color: var(--gold); }
+.projector-nav { display: flex; justify-content: space-between; }
+.projector-nav button { font-size: 2rem; padding: 0 1.25rem; }
+
+/* ---------- Sunday hymn sheet ---------- */
+.doc .sheet-tools { display: flex; flex-wrap: wrap; align-items: center; gap: 0.5rem 0.75rem; margin: 0.5rem 0 0.25rem; }
+.doc .sheet-tools .print-button { font: inherit; font-weight: 600; min-height: 44px; padding: 0 1rem; border: 0; border-radius: 10px; background: var(--brown); color: #fff; cursor: pointer; }
+.doc .sheet-tools .sheet-hint { color: var(--muted); font-size: 0.85rem; }
+.doc .hymn-sheet > .content { border: 0; padding: 0; background: none; }
+.doc .hymn-sheet .sheet-heading { display: none; }
+.doc .hymn-sheet .sheet-hymn { margin-top: 1.5rem; }
+.doc .hymn-sheet .sheet-title { font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.3rem; color: var(--brown); }
+.doc .hymn-sheet .sheet-hymn .paragraph p { line-height: 1.55; }
+
+@media print {
+  @page { size: A4; margin: 12mm; }
+  body { background: #fff; padding-top: 0; }
+  .navbar, .toolbar, .nav-container, footer.footer, .doc .sheet-tools, .hymn-tools, nav.pagination { display: none !important; }
+  /* On a Sunday page print only the sheet */
+  body:has(.hymn-sheet) .doc > :not(.hymn-sheet):not(#preamble):not(.sect1) { display: none !important; }
+  body:has(.hymn-sheet) .doc #preamble, body:has(.hymn-sheet) .doc h1.page, body:has(.hymn-sheet) .doc .sect1 > h2 { display: none !important; }
+  .doc { max-width: none; margin: 0; padding: 0; color: #000; }
+  .doc .hymn-sheet { margin: 0; }
+  .doc .hymn-sheet > .content { column-gap: 7mm; column-rule: 0.5pt solid #bbb; }
+  .doc .hymn-sheet.sheet-md > .content { columns: 2; font-size: 10.5pt; }
+  .doc .hymn-sheet.sheet-sm > .content { columns: 3; font-size: 8.5pt; }
+  .doc .hymn-sheet.sheet-xs > .content { columns: 4; font-size: 7pt; }
+  .doc .hymn-sheet .sheet-heading { display: block; column-span: all; text-align: center; font-family: "Cormorant Garamond", Georgia, serif; font-size: 1.6em; color: #000; margin: 0 0 3mm; }
+  .doc .hymn-sheet .sheet-hymn { margin-top: 0; break-inside: avoid-column; padding-bottom: 2.5mm; }
+  .doc .hymn-sheet .sheet-title { font-size: 1.15em; color: #000; }
+  .doc .hymn-sheet .paragraph { margin-top: 1.2mm; }
+  .doc .hymn-sheet .paragraph p { line-height: 1.25; }
+  .doc .hymn-sheet em { color: #444; }
+  /* Hymn pages print as clean lyrics */
+  .doc .lyrics { font-size: 12pt; }
+  .doc .hymn-meta div { border: 0; background: none; padding: 0; }
+}

@@ -11,6 +11,85 @@
     else document.addEventListener('DOMContentLoaded', fn)
   }
 
+  // ---------- Offline: save the whole hymn book on this phone ----------
+  // The service worker lives at the site root, next to index.html. Work out
+  // where that is from this script's own address (<root>/_/js/hymns.js).
+  if ('serviceWorker' in navigator) {
+    var me = document.currentScript && document.currentScript.src
+    var root = me && me.replace(/_\/js\/hymns\.js.*$/, '')
+    if (root && /^https?:/.test(root)) {
+      window.addEventListener('load', function () {
+        navigator.serviceWorker.register(root + 'sw.js', { scope: root }).catch(function () {})
+      })
+    }
+  }
+
+  // ---------- Projector: big text, one verse at a time ----------
+  function openProjector () {
+    var verses = Array.prototype.slice.call(document.querySelectorAll('.doc .lyrics .paragraph'))
+      .map(function (p) { return p.innerHTML })
+    if (!verses.length) return
+    var title = (document.querySelector('.doc h1.page') || {}).textContent || ''
+    var i = 0
+    var el = document.createElement('div')
+    el.className = 'projector'
+    el.setAttribute('role', 'dialog')
+    el.setAttribute('aria-label', 'Projector: ' + title)
+    el.innerHTML = '<div class="projector-top"><span class="projector-title"></span>' +
+      '<span class="projector-count"></span>' +
+      '<button type="button" class="projector-close" aria-label="Close">&times;</button></div>' +
+      '<div class="projector-verse" aria-live="polite"></div>' +
+      '<div class="projector-nav"><button type="button" data-step="-1" aria-label="Previous verse">&lsaquo;</button>' +
+      '<button type="button" data-step="1" aria-label="Next verse">&rsaquo;</button></div>'
+    el.querySelector('.projector-title').textContent = title
+    var verse = el.querySelector('.projector-verse')
+    var count = el.querySelector('.projector-count')
+    function show () {
+      verse.innerHTML = '<div class="projector-text">' + verses[i] + '</div>'
+      count.textContent = (i + 1) + ' / ' + verses.length
+      // Shrink long verses until they fit the screen
+      var text = verse.firstChild
+      var size = 7
+      text.style.fontSize = size + 'vmin'
+      while (size > 2.5 && (text.scrollHeight > verse.clientHeight || text.scrollWidth > verse.clientWidth)) {
+        size -= 0.25
+        text.style.fontSize = size + 'vmin'
+      }
+    }
+    function step (n) { i = Math.max(0, Math.min(verses.length - 1, i + n)); show() }
+    function close () {
+      document.removeEventListener('keydown', onKey)
+      if (document.fullscreenElement && document.exitFullscreen) document.exitFullscreen().catch(function () {})
+      el.remove()
+      document.documentElement.classList.remove('is-projecting')
+    }
+    function onKey (e) {
+      if (e.key === 'Escape') close()
+      else if (e.key === 'ArrowRight' || e.key === 'ArrowDown' || e.key === ' ' || e.key === 'PageDown') { e.preventDefault(); step(1) }
+      else if (e.key === 'ArrowLeft' || e.key === 'ArrowUp' || e.key === 'PageUp') { e.preventDefault(); step(-1) }
+    }
+    el.querySelector('.projector-close').addEventListener('click', close)
+    el.querySelectorAll('.projector-nav button').forEach(function (b) {
+      b.addEventListener('click', function () { step(parseInt(b.dataset.step, 10)) })
+    })
+    // Tap the right half for the next verse, the left half for the previous one
+    verse.addEventListener('click', function (e) { step(e.clientX > window.innerWidth / 2 ? 1 : -1) })
+    var startX = null
+    el.addEventListener('touchstart', function (e) { startX = e.touches[0].clientX }, { passive: true })
+    el.addEventListener('touchend', function (e) {
+      if (startX === null) return
+      var dx = e.changedTouches[0].clientX - startX
+      if (Math.abs(dx) > 50) step(dx < 0 ? 1 : -1)
+      startX = null
+    })
+    document.addEventListener('keydown', onKey)
+    document.body.appendChild(el)
+    document.documentElement.classList.add('is-projecting')
+    if (el.requestFullscreen) el.requestFullscreen().catch(function () {})
+    show()
+    window.addEventListener('resize', function () { if (el.isConnected) show() })
+  }
+
   ready(function () {
     var tools = document.querySelector('.hymn-tools')
     if (tools) {
@@ -21,7 +100,17 @@
         : '') +
         '<div class="text-size" role="group" aria-label="Text size">' +
         '<button type="button" data-size="-1" aria-label="Smaller text">A\u2212</button>' +
-        '<button type="button" data-size="1" aria-label="Larger text">A+</button></div>'
+        '<button type="button" data-size="1" aria-label="Larger text">A+</button></div>' +
+        '<button type="button" class="project-button" aria-label="Show on a screen, one verse at a time">Project</button>'
+      tools.querySelector('.project-button').addEventListener('click', openProjector)
+    }
+
+    // Sunday pages: print the one-page hymn sheet
+    var sheetTools = document.querySelector('.sheet-tools')
+    if (sheetTools && document.querySelector('.hymn-sheet')) {
+      sheetTools.innerHTML = '<button type="button" class="print-button">Print hymn sheet</button>' +
+        '<span class="sheet-hint">One page with the words of every hymn below.</span>'
+      sheetTools.querySelector('button').addEventListener('click', function () { window.print() })
     }
     // Text size for lyrics (remembered on this phone)
     var sizes = [1, 1.15, 1.3, 1.5, 1.75]

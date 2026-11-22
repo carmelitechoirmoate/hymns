@@ -9,4 +9,4 @@
 :audio: 
 :hardbreaks-option:
 
-_Lyrics are on the sheet music. Use the *Sheet music* button above._
+_The words are on the sheet music for this Gloria._
