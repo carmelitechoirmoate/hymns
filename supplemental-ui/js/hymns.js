@@ -103,6 +103,21 @@
         '<button type="button" data-size="1" aria-label="Larger text">A+</button></div>' +
         '<button type="button" class="project-button" aria-label="Show on a screen, one verse at a time">Project</button>'
       tools.querySelector('.project-button').addEventListener('click', openProjector)
+      // Keep the hymn's name in view: it appears in the pinned bar once the
+      // page title has scrolled off the top.
+      var h1 = document.querySelector('.doc h1.page')
+      if (h1) {
+        var name = document.createElement('div')
+        name.className = 'tools-title'
+        name.textContent = h1.textContent
+        name.setAttribute('aria-hidden', 'true')
+        tools.insertBefore(name, tools.firstChild)
+        if ('IntersectionObserver' in window) {
+          new IntersectionObserver(function (entries) {
+            tools.classList.toggle('show-title', !entries[0].isIntersecting)
+          }, { rootMargin: '-56px 0px 0px 0px' }).observe(h1)
+        }
+      }
     }
 
     // Sunday pages: print the one-page hymn sheet

@@ -53,7 +53,7 @@ body { background: var(--paper); color: var(--ink); font-family: "Inter", system
 .doc .hymn-meta dt::after { content: ":"; }
 .doc .hymn-meta dd { margin: 0; font-weight: 600; color: var(--brown-deep); }
 
-.doc .hymn-tools { position: sticky; top: var(--navbar-height, 3.5rem); z-index: 2; display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; background: var(--paper); padding: 0.5rem 0; border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
+.doc .hymn-tools { position: sticky; top: 6rem; z-index: 2; display: flex; gap: 0.5rem; justify-content: space-between; align-items: center; background: var(--paper); padding: 0.5rem 0; border-bottom: 1px solid var(--line); margin-bottom: 1rem; }
 .doc .hymn-tools [role=group] { display: inline-flex; border: 1px solid var(--brown); border-radius: 10px; overflow: hidden; }
 .doc .hymn-tools .text-size { margin-left: auto; }
 .doc .hymn-tools button { font: inherit; font-size: 0.95rem; font-weight: 600; min-height: 44px; min-width: 48px; padding: 0 0.9rem; border: 0; background: #fff; color: var(--brown); cursor: pointer; }
@@ -72,7 +72,7 @@ body.show-sheet .doc .sheet-music { display: block; }
 .doc .hymn-audio { width: 100%; margin: 0.25rem 0 0.75rem; }
 
 /* ---------- Hymn index ---------- */
-.doc .hymn-filter { position: sticky; top: var(--navbar-height, 3.5rem); z-index: 2; background: var(--paper); padding: 0.5rem 0; }
+.doc .hymn-filter { position: sticky; top: 6rem; z-index: 2; background: var(--paper); padding: 0.5rem 0; }
 .doc .hymn-filter input, .doc .hymn-filter select { font: inherit; font-size: 16px; width: 100%; box-sizing: border-box; min-height: 44px; padding: 0.4rem 0.7rem; border: 1px solid var(--line); border-radius: 10px; background: #fff; color: var(--ink); }
 .doc .hymn-filter-selects { display: grid; grid-template-columns: 1fr 1fr; gap: 0.5rem; margin-top: 0.5rem; }
 .doc .hymn-filter-count { margin: 0.4rem 0 0; color: var(--muted); font-size: 0.85rem; }
@@ -173,3 +173,10 @@ html.is-projecting { overflow: hidden; }
   .doc .lyrics { font-size: 12pt; }
   .doc .hymn-meta div { border: 0; background: none; padding: 0; }
 }
+
+/* Hymn name pinned at the top while scrolling */
+.doc .hymn-tools .tools-title { display: none; flex: 1 0 100%; font-family: "Cormorant Garamond", Georgia, serif; font-weight: 700; font-size: 1.25rem; color: var(--brown); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.doc .hymn-tools.show-title .tools-title { display: block; }
+/* The default UI makes the content a scroll box on small screens, which stops
+   the pinned bars from sticking. Clip instead of scrolling. */
+@media screen and (max-width: 1023.5px) { main > .content { overflow-x: clip; } }
