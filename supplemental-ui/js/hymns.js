@@ -163,8 +163,15 @@
     var sheetTools = document.querySelector('.sheet-tools')
     if (sheetTools && document.querySelector('.hymn-sheet')) {
       sheetTools.innerHTML = '<button type="button" class="print-button">Print hymn sheet</button>' +
-        '<span class="sheet-hint">One page with the words of every hymn below.</span>'
+        (document.querySelector('.sheet-booklet') ? '<span class="sheet-hint">A booklet with the words of every song below.</span>' : '<span class="sheet-hint">One page with the words of every hymn below.</span>')
       sheetTools.querySelector('button').addEventListener('click', function () { window.print() })
+      var sheetTitle = document.querySelector('.doc h1.page')
+      if (sheetTitle) {
+        var st2 = document.createElement('style')
+        st2.media = 'print'
+        st2.textContent = '@page { @top-left { content: ' + JSON.stringify(sheetTitle.textContent.trim()) + '; } }'
+        document.head.appendChild(st2)
+      }
     }
     // Text size for lyrics (remembered on this phone)
     var sizes = [1, 1.15, 1.3, 1.5, 1.75]

@@ -1,0 +1,35 @@
+= Carol Service 2026
+:date: 2026-12
+:occasion: Christmas carol service
+:sheet-style: booklet
+
+The running order for this year's carol service, from the plan shared on WhatsApp on 16 November 2026.
+Tap a song for its words, sheet music and YouTube performances to practise with.
+The words of every song are further down this page. *Print hymn sheet* prints them all as a booklet.
+
+* 1: xref:hymns/o-come-o-come-emmanuel.adoc[]
+* 2: xref:hymns/most-wonderful-time-of-the-year.adoc[]
+* 3: xref:hymns/white-christmas.adoc[]
+* 4: xref:hymns/winter-wonderland.adoc[]
+* 5: xref:hymns/a-winters-tale.adoc[] _(soloist)_
+* 6: xref:hymns/when-a-child-is-born.adoc[] _(soloist)_
+* 7: xref:hymns/angels-from-the-realms-of-glory.adoc[]
+* 8: xref:hymns/everywhere-christmas-tonight.adoc[]
+* 9: xref:hymns/nella-fantasia.adoc[]
+* 10: xref:hymns/joyful-joyful-we-adore-you.adoc[]
+* 11: xref:hymns/in-the-bleak-midwinter.adoc[]
+* 12: xref:hymns/little-drummer-boy.adoc[]
+* 13: xref:hymns/walking-in-the-air.adoc[]
+* 14: xref:hymns/joy-to-the-world.adoc[]
+* 15: xref:hymns/do-you-hear-what-i-hear.adoc[]
+* 16: xref:hymns/let-there-be-peace-on-earth.adoc[]
+* 17: xref:hymns/the-first-noel.adoc[]
+* *Opening prayer*
+* 18: xref:hymns/marys-boy-child.adoc[]
+* 19: xref:hymns/away-in-a-manger.adoc[]
+* *Gospel* (Luke 2:8-16)
+* 20: xref:hymns/silent-night.adoc[]
+* 21: xref:hymns/o-come-all-ye-faithful.adoc[]
+* *Prayers of the faithful and blessing*
+* 22: xref:hymns/o-holy-night.adoc[]
+* 23: xref:hymns/the-holy-city.adoc[]

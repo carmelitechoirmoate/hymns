@@ -223,3 +223,11 @@ footer.footer { font-size: 0.72rem; line-height: 1.5; padding: 1rem 1rem 1.5rem;
 .doc #my-favourites a { display: block; padding: 0.55rem 0.8rem; background: #fff; border: 1px solid var(--line); border-radius: 10px; text-decoration: none; font-weight: 600; }
 @media print { .doc .hymn-tools .fav-button, .doc #my-favourites { display: none !important; } }
 .doc .hymn-tools { justify-content: flex-start; }
+
+/* Concert booklet: all the words, two columns, as many pages as needed */
+@media print {
+  .doc .hymn-sheet.sheet-booklet > .content { columns: 2; font-size: 11pt; column-fill: auto; }
+  .doc .hymn-sheet.sheet-booklet .sheet-hymn { break-inside: auto; padding-bottom: 5mm; }
+  .doc .hymn-sheet.sheet-booklet .sheet-hymn .paragraph { break-inside: avoid; }
+  .doc .hymn-sheet.sheet-booklet .sheet-title { font-size: 1.25em; break-after: avoid; }
+}
