@@ -1,6 +1,6 @@
 = Carol Service 2026
-:date: 2026-12
-:occasion: Christmas carol service
+:date: 2026-12-13
+:occasion: Sunday 13 December 2026 at 6pm
 :sheet-style: booklet
 
 The running order for this year's carol service, from the plan shared on WhatsApp on 16 November 2026.
