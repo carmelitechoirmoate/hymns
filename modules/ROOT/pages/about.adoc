@@ -2,7 +2,7 @@
 :!page-pagination:
 
 [.hero-logo]
-image::carmelite-arms.svg[Carmelite coat of arms,180]
+image::carmelite-arms-motto.svg[Carmelite coat of arms with the motto Zelo zelatus sum pro Domino Deo exercituum,280]
 
 The Order of the Brothers of the Blessed Virgin Mary of Mount Carmel began around the year 1200, when a group of hermits settled on Mount Carmel in the Holy Land.
 They lived near the spring traditionally linked to the prophet Elijah and built a small chapel in honour of Our Lady.

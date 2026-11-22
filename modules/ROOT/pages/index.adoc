@@ -3,7 +3,7 @@
 :!page-pagination:
 
 [.hero-logo]
-image::carmelite-arms.svg[Carmelite coat of arms,200]
+image::carmelite-arms-motto.svg[Carmelite coat of arms with the motto Zelo zelatus sum pro Domino Deo exercituum,300]
 
 [.tagline]
 The lyrics of every hymn the Carmelite choir sings, with sheet music where we have it.

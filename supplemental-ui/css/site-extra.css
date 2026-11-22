@@ -85,7 +85,7 @@ body.show-sheet .doc .sheet-music { display: block; }
 
 /* ---------- Home and About ---------- */
 .doc .hero-logo { text-align: center; margin: 0.5rem 0 0.5rem; }
-.doc .hero-logo img { width: 160px; filter: drop-shadow(0 10px 18px rgba(61,38,18,0.25)); }
+.doc .hero-logo img { width: min(300px, 85vw); filter: drop-shadow(0 10px 18px rgba(61,38,18,0.25)); }
 body.home .doc h1.page { text-align: center; font-size: 2.4rem; }
 .doc .tagline { text-align: center; font-style: italic; color: var(--muted); font-size: 1.05rem; }
 .doc .home-links ul { list-style: none; padding: 0; margin: 1rem 0; display: grid; gap: 0.6rem; }

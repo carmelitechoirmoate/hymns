@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 330" role="img" aria-labelledby="t2">
+<title id="t2">Carmelite coat of arms with the motto Zelo zelatus sum pro Domino Deo exercituum</title>
+<g transform="translate(70,0)">
+<defs><clipPath id="s2"><path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z"/></clipPath></defs>
+<!-- crown -->
+<g fill="#c9a227" stroke="#3d2612" stroke-width="2" stroke-linejoin="round">
+<path d="M52 50 L46 16 L74 34 L100 8 L126 34 L154 16 L148 50 Z"/>
+<rect x="50" y="44" width="100" height="10" rx="3"/>
+</g>
+<g fill="#fbf6ea"><circle cx="46" cy="16" r="4"/><circle cx="100" cy="8" r="4"/><circle cx="154" cy="16" r="4"/></g>
+<!-- shield -->
+<path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z" fill="#fbf6ea"/>
+<g clip-path="url(#s2)">
+<path d="M18 236 L18 178 Q66 152 100 96 Q134 152 182 178 L182 236 Z" fill="#5b3a1e"/>
+</g>
+<!-- cross on the summit of Mount Carmel -->
+<g fill="#5b3a1e"><rect x="96" y="66" width="8" height="34"/><rect x="86" y="74" width="28" height="7"/></g>
+<polygon points="100.0,173.0 95.1,181.5 85.3,181.5 90.1,190.0 85.3,198.5 95.1,198.5 100.0,207.0 104.9,198.5 114.7,198.5 109.9,190.0 114.7,181.5 104.9,181.5" fill="#fbf6ea"/>
+<polygon points="62.0,85.0 57.7,92.5 49.0,92.5 53.3,100.0 49.0,107.5 57.7,107.5 62.0,115.0 66.3,107.5 75.0,107.5 70.7,100.0 75.0,92.5 66.4,92.5" fill="#5b3a1e"/>
+<polygon points="138.0,85.0 133.7,92.5 125.0,92.5 129.3,100.0 125.0,107.5 133.7,107.5 138.0,115.0 142.3,107.5 151.0,107.5 146.7,100.0 151.0,92.5 142.3,92.5" fill="#5b3a1e"/>
+<path d="M30 58 H170 V150 Q170 210 100 236 Q30 210 30 150 Z" fill="none" stroke="#3d2612" stroke-width="4"/>
+</g>
+<!-- motto ribbon -->
+<g stroke="#3d2612" stroke-width="2" stroke-linejoin="round">
+<path d="M8 262 L30 250 L30 290 L8 302 L18 282 Z" fill="#5b3a1e"/>
+<path d="M332 262 L310 250 L310 290 L332 302 L322 282 Z" fill="#5b3a1e"/>
+<path d="M30 250 Q170 298 310 250 L310 290 Q170 338 30 290 Z" fill="#fbf6ea"/>
+</g>
+<path id="motto" d="M34 275 Q170 323 306 275" fill="none"/>
+<text font-family="'Cormorant Garamond', Georgia, 'Times New Roman', serif" font-weight="700" font-size="13" fill="#5b3a1e">
+<textPath href="#motto" startOffset="10" textLength="268" lengthAdjust="spacingAndGlyphs">ZELO ZELATUS SUM PRO DOMINO DEO EXERCITUUM</textPath>
+</text>
+</svg>
