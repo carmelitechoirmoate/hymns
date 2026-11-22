@@ -101,8 +101,20 @@
         '<div class="text-size" role="group" aria-label="Text size">' +
         '<button type="button" data-size="-1" aria-label="Smaller text">A\u2212</button>' +
         '<button type="button" data-size="1" aria-label="Larger text">A+</button></div>' +
-        '<button type="button" class="project-button" aria-label="Show on a screen, one verse at a time">Project</button>'
+        '<button type="button" class="project-button" aria-label="Show on a screen, one verse at a time">Project</button>' +
+        '<button type="button" class="print-hymn-button" aria-label="Print the words in large text">Print</button>'
       tools.querySelector('.project-button').addEventListener('click', openProjector)
+      tools.querySelector('.print-hymn-button').addEventListener('click', function () { window.print() })
+      // Printed copies: the hymn's name at the top left of every page
+      // (the page numbers at the bottom come from the print styles).
+      var titleEl = document.querySelector('.doc h1.page')
+      if (titleEl) {
+        var css = '@page { @top-left { content: ' + JSON.stringify(titleEl.textContent.trim()) + '; } }'
+        var st = document.createElement('style')
+        st.media = 'print'
+        st.textContent = css
+        document.head.appendChild(st)
+      }
       // Keep the hymn's name in view: it appears in the pinned bar once the
       // page title has scrolled off the top.
       var h1 = document.querySelector('.doc h1.page')

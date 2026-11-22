@@ -189,3 +189,23 @@ html.is-projecting { overflow: hidden; }
 footer.footer { font-size: 0.72rem; line-height: 1.5; padding: 1rem 1rem 1.5rem; }
 .footer p { margin: 0.25rem 0; }
 .footer .footer-feedback, .footer .footer-small a { font-size: inherit; }
+
+/* ---------- Large-print hymn ---------- */
+.doc .hymn-tools .print-hymn-button { border: 1px solid var(--brown); border-radius: 10px; }
+@media print {
+  @page {
+    @bottom-center { content: "Page " counter(page) " of " counter(pages); font-family: "Inter", Arial, sans-serif; font-size: 10pt; color: #444; }
+    @top-left { font-family: "Inter", Arial, sans-serif; font-size: 10pt; color: #444; }
+  }
+  /* Hymn pages print as large-print words only */
+  body:has(.doc .lyrics) .doc > :not(#preamble):not(h1.page) { display: none !important; }
+  body:has(.doc .lyrics) .doc .hymn-meta,
+  body:has(.doc .lyrics) .doc .sheet-music,
+  body:has(.doc .lyrics) .doc .hymn-note,
+  body:has(.doc .lyrics) aside.toc { display: none !important; }
+  body:has(.doc .lyrics) .doc h1.page { font-size: 26pt; margin: 0 0 8mm; color: #000; }
+  body:has(.doc .lyrics) .doc .lyrics { display: block !important; font-size: 20pt !important; color: #000; }
+  body:has(.doc .lyrics) .doc .lyrics p { line-height: 1.35; margin: 0 0 7mm; }
+  body:has(.doc .lyrics) .doc .lyrics .paragraph { break-inside: avoid; margin: 0; }
+  body:has(.doc .lyrics) .doc .lyrics em { color: #333; }
+}
