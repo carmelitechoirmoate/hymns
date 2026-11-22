@@ -13,6 +13,8 @@ The lyrics of every hymn the Carmelite choir sings, with sheet music where we ha
 {hymn-count} hymns, with filters for season and Mass part]
 * xref:sundays/index.adoc[*What we sang* +
 Every Sunday and feast, newest first]
+* xref:moate.adoc[*Carmelite Church, Moate* +
+Mass times, confessions and the live webcam]
 * xref:about.adoc[*About the Carmelites* +
 Our coat of arms and its Latin motto]
 
