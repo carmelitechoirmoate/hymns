@@ -1,4 +1,4 @@
-/* Offline support for the Carmelite Choir Hymns site.
+/* Offline support for the Carmelite Choir Moate Hymns site.
    On install it saves every page, picture and the search index listed in
    offline-pages.json, so the whole hymn book works with no signal.
    Pages are fetched fresh when online (so edits show up) and fall back to

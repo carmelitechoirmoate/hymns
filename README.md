@@ -1,4 +1,4 @@
-# Carmelite Choir Hymns
+# Carmelite Choir Moate Hymns
 
 The Carmelite choir's hymn book: full lyrics, sheet music where we have it,
 and a record of what we sang each Sunday. Built with [Antora](https://antora.org)
