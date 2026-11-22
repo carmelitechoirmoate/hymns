@@ -7,6 +7,7 @@
 :sheet-music:
 :youtube:
 :audio:
+:note: Sung as the Marian antiphon in Ordinary Time, after Pentecost. The music, with recordings by Pluscarden Abbey and the Schola Sanctae Scholasticae, is on link:https://gregorian-chant-hymns.com/hymns-2/salve-regina-simple.html[Gregorian Chant Hymns^], and the score is in the free link:http://media.musicasacra.com/pdf/pbc-web.pdf[Parish Book of Chant PDF^] on page 212.
 :hardbreaks-option:
 
 Salve, Regina, mater misericordiae;
@@ -35,7 +36,3 @@ _thine eyes of mercy toward us,_
 _and after this our exile_
 _show unto us the blessed fruit of thy womb, Jesus._
 _O clement, O loving, O sweet Virgin Mary!_
-
-:hardbreaks-option!:
-_Sung as the Marian antiphon in Ordinary Time, after Pentecost.
-The music, with recordings by Pluscarden Abbey and the Schola Sanctae Scholasticae, is on link:https://gregorian-chant-hymns.com/hymns-2/salve-regina-simple.html[Gregorian Chant Hymns^], and the score is in the free link:http://media.musicasacra.com/pdf/pbc-web.pdf[Parish Book of Chant PDF^] on page 212._

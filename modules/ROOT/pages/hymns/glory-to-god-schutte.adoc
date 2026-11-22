@@ -2,7 +2,7 @@
 :composer: Dan Schutte
 :hymnal-page: 
 :key: D
-:season: Any time (not Advent or Lent)
+:season: Any time
 :mass-part: Gloria
 :sheet-music: glory-to-god-schutte.jpg
 :youtube: 

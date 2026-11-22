@@ -7,6 +7,7 @@
 :sheet-music:
 :youtube:
 :audio:
+:note: © 1987 & 2015 Make Way Music. CCLI Song No. 30426.
 :hardbreaks-option:
 
 Lord, the light of Your love is shining,
@@ -40,5 +41,3 @@ mirrored here may our lives tell Your story,
 shine on me, shine on me.
 
 _Chorus (twice)_
-
-[.small]#© 1987 & 2015 Make Way Music. CCLI Song No. 30426.#

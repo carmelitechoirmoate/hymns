@@ -55,6 +55,7 @@ What each line means:
 |`:sheet-music:` |The picture file(s) of the music, separated by commas (see below). Leave blank if there is none.
 |`:youtube:` |Links to performances on YouTube, separated by commas. Without one, the page shows a YouTube search link instead.
 |`:audio:` |Sound files shared by the choir (see below).
+|`:note:` |Optional. A line shown under the words, such as a copyright notice or where the music comes from. Leave it out if there is none.
 |`:hardbreaks-option:` |Leave this in: it keeps each line of the lyrics on its own line.
 |===
 

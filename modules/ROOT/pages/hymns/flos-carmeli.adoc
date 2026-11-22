@@ -9,5 +9,14 @@
 :audio: 
 :hardbreaks-option:
 
-Flos Carme-li, vitis flori-ge-ra, splendor coeli, Virgo poo-er-pera singu-la-ris.
-Mater mi-tis sed vi-ri nesci-a Car-me-li-tis e-sto propiti- a Stella maris.
+Flos Carmeli,
+vitis florigera,
+splendor coeli,
+Virgo puerpera
+singularis.
+
+Mater mitis
+sed viri nescia,
+Carmelitis
+esto propitia,
+Stella maris.
