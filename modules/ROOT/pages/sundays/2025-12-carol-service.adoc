@@ -21,7 +21,7 @@ From the running order in "Carols25.docx". The exact date is not in the document
 * xref:hymns/let-there-be-peace-on-earth.adoc[]
 * xref:hymns/the-first-noel.adoc[]
 * _Opening prayer_
-* O Little Town of Bethlehem
+* xref:hymns/o-little-town-of-bethlehem.adoc[]
 * xref:hymns/away-in-a-manger.adoc[]
 * _Gospel: Luke 2:8-16_
 * xref:hymns/silent-night.adoc[]
