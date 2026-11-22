@@ -1,6 +1,6 @@
 = Shine, Jesus, Shine
-:composer: Graham Kendrick
-:hymnal-page:
+:composer: Words and music: Graham Kendrick
+:hymnal-page: 80
 :key:
 :season: Any time, Epiphany
 :mass-part: Recessional, Entrance
@@ -9,4 +9,36 @@
 :audio:
 :hardbreaks-option:
 
-_Lyrics still to be added._
+*1.* Lord, the light of Your love is shining,
+in the midst of the darkness, shining,
+Jesus, Light of the World, shine upon us,
+set us free by the truth You now bring us,
+shine on me, shine on me.
+
+_Chorus_
+Shine, Jesus, shine,
+fill this land with the Father's glory,
+blaze, Spirit, blaze,
+set our hearts on fire.
+Flow, river, flow,
+flood the nations with grace and mercy,
+send forth Your word,
+Lord, and let there be light.
+
+*2.* Lord, I come to Your awesome presence,
+from the shadows into Your radiance,
+by the blood I may enter Your brightness,
+search me, try me, consume all my darkness,
+shine on me, shine on me.
+
+_Chorus_
+
+*3.* As we gaze on Your kingly brightness
+so our faces display Your likeness,
+ever changing from glory to glory,
+mirrored here may our lives tell Your story,
+shine on me, shine on me.
+
+_Chorus (x2)_
+
+[.small]#© 1987 & 2015 Make Way Music. CCLI Song No. 30426.#
